@@ -614,7 +614,7 @@
             <div class="mt-5">
                 <div class="text-[10px] uppercase tracking-wider font-extrabold text-slate-400 dark:text-slate-500 mb-2.5 px-1 flex items-center justify-between">
                     <span>Menu Navigasi</span>
-                    <span class="text-[9px] font-normal lowercase opacity-70">6 slide</span>
+                    <span class="text-[9px] font-normal lowercase opacity-70">10 slide</span>
                 </div>
                 <nav class="flex flex-col gap-1.5 w-full">
                     <button onclick="goToSlide(0); toggleSidebar(false)" class="nav-tab w-full text-left px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-2.5 transition-all" data-slide="0">
@@ -623,43 +623,48 @@
                         <i class="fa-solid fa-chevron-right text-[9px] opacity-40"></i>
                     </button>
                     <button onclick="goToSlide(1); toggleSidebar(false)" class="nav-tab w-full text-left px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-2.5 transition-all" data-slide="1">
-                        <i class="fa-solid fa-bullseye w-4 text-center"></i>
-                        <span class="flex-1 truncate">2. Tujuan Organisasi</span>
+                        <i class="fa-solid fa-circle-question w-4 text-center text-amber-400"></i>
+                        <span class="flex-1 truncate">2. Apa Itu HIMATANBU?</span>
                         <i class="fa-solid fa-chevron-right text-[9px] opacity-40"></i>
                     </button>
                     <button onclick="goToSlide(2); toggleSidebar(false)" class="nav-tab w-full text-left px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-2.5 transition-all" data-slide="2">
-                        <i class="fa-solid fa-clock-rotate-left w-4 text-center"></i>
-                        <span class="flex-1 truncate">3. Sejarah</span>
+                        <i class="fa-solid fa-bullseye w-4 text-center text-cyan-400"></i>
+                        <span class="flex-1 truncate">3. Tujuan Organisasi</span>
                         <i class="fa-solid fa-chevron-right text-[9px] opacity-40"></i>
                     </button>
                     <button onclick="goToSlide(3); toggleSidebar(false)" class="nav-tab w-full text-left px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-2.5 transition-all" data-slide="3">
-                        <i class="fa-solid fa-sitemap w-4 text-center"></i>
-                        <span class="flex-1 truncate">4. Bagan Struktur</span>
+                        <i class="fa-solid fa-clock-rotate-left w-4 text-center"></i>
+                        <span class="flex-1 truncate">4. Sejarah</span>
                         <i class="fa-solid fa-chevron-right text-[9px] opacity-40"></i>
                     </button>
-                    <button onclick="goToSlide(7); toggleSidebar(false)" class="nav-tab w-full text-left px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-2.5 transition-all" data-slide="4">
-                        <i class="fa-solid fa-graduation-cap w-4 text-center text-emerald-500"></i>
-                        <span class="flex-1 truncate">5. Bidang PKA</span>
+                    <button onclick="goToSlide(4); toggleSidebar(false)" class="nav-tab w-full text-left px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-2.5 transition-all" data-slide="4">
+                        <i class="fa-solid fa-sitemap w-4 text-center"></i>
+                        <span class="flex-1 truncate">5. Bagan Struktur</span>
                         <i class="fa-solid fa-chevron-right text-[9px] opacity-40"></i>
                     </button>
                     <button onclick="goToSlide(5); toggleSidebar(false)" class="nav-tab w-full text-left px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-2.5 transition-all" data-slide="5">
-                        <i class="fa-solid fa-palette w-4 text-center text-amber-500"></i>
-                        <span class="flex-1 truncate">6. Bidang SKMB</span>
+                        <i class="fa-solid fa-graduation-cap w-4 text-center text-emerald-500"></i>
+                        <span class="flex-1 truncate">6. Bidang PKA</span>
                         <i class="fa-solid fa-chevron-right text-[9px] opacity-40"></i>
                     </button>
                     <button onclick="goToSlide(6); toggleSidebar(false)" class="nav-tab w-full text-left px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-2.5 transition-all" data-slide="6">
-                        <i class="fa-solid fa-bullhorn w-4 text-center text-cyan-500"></i>
-                        <span class="flex-1 truncate">7. Bidang INFOKOM</span>
+                        <i class="fa-solid fa-palette w-4 text-center text-amber-500"></i>
+                        <span class="flex-1 truncate">7. Bidang SKMB</span>
                         <i class="fa-solid fa-chevron-right text-[9px] opacity-40"></i>
                     </button>
                     <button onclick="goToSlide(7); toggleSidebar(false)" class="nav-tab w-full text-left px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-2.5 transition-all" data-slide="7">
-                        <i class="fa-solid fa-users w-4 text-center"></i>
-                        <span class="flex-1 truncate">8. Anggota Muda</span>
+                        <i class="fa-solid fa-bullhorn w-4 text-center text-cyan-500"></i>
+                        <span class="flex-1 truncate">8. Bidang INFOKOM</span>
                         <i class="fa-solid fa-chevron-right text-[9px] opacity-40"></i>
                     </button>
                     <button onclick="goToSlide(8); toggleSidebar(false)" class="nav-tab w-full text-left px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-2.5 transition-all" data-slide="8">
+                        <i class="fa-solid fa-users w-4 text-center"></i>
+                        <span class="flex-1 truncate">9. Anggota Muda</span>
+                        <i class="fa-solid fa-chevron-right text-[9px] opacity-40"></i>
+                    </button>
+                    <button onclick="goToSlide(9); toggleSidebar(false)" class="nav-tab w-full text-left px-3.5 py-2 rounded-xl font-bold text-xs flex items-center gap-2.5 transition-all" data-slide="9">
                         <i class="fa-solid fa-clipboard-list w-4 text-center"></i>
-                        <span class="flex-1 truncate">9. Proker & Asrama</span>
+                        <span class="flex-1 truncate">10. Proker & Asrama</span>
                         <i class="fa-solid fa-chevron-right text-[9px] opacity-40"></i>
                     </button>
                 </nav>
@@ -766,28 +771,28 @@
 
                 <!-- 3 Action Buttons: Luxury Glassmorphism & Neon Glow -->
                 <div class="ppt-anim-2 flex flex-wrap items-center justify-center gap-3 sm:gap-4 mb-6 sm:mb-8">
-                    <!-- Struktur Button -->
-                    <button onclick="goToSlide(3)" class="group px-5 sm:px-7 py-2.5 sm:py-3 rounded-full bg-white text-[#091e52] font-black text-xs sm:text-sm tracking-wide shadow-[0_10px_25px_rgba(0,0,0,0.3)] hover:shadow-[0_15px_35px_rgba(59,130,246,0.6)] hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 border-2 border-white animate-pulse-glow">
+                    <!-- Apa Itu HIMATANBU Button -->
+                    <button onclick="goToSlide(1)" class="group px-5 sm:px-7 py-2.5 sm:py-3 rounded-full bg-white text-[#091e52] font-black text-xs sm:text-sm tracking-wide shadow-[0_10px_25px_rgba(0,0,0,0.3)] hover:shadow-[0_15px_35px_rgba(59,130,246,0.6)] hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 border-2 border-white animate-pulse-glow">
                         <span class="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 group-hover:bg-[#091e52] group-hover:text-white transition-colors">
-                            <i class="fa-solid fa-sitemap text-xs"></i>
+                            <i class="fa-solid fa-circle-question text-xs"></i>
                         </span>
-                        <span>STRUKTUR PENGURUS</span>
+                        <span>TENTANG HIMATANBU</span>
                     </button>
 
-                    <!-- Daftar Button -->
-                    <button onclick="goToSlide(4)" class="group px-5 sm:px-7 py-2.5 sm:py-3 rounded-full bg-white text-[#091e52] font-black text-xs sm:text-sm tracking-wide shadow-[0_10px_25px_rgba(0,0,0,0.3)] hover:shadow-[0_15px_35px_rgba(59,130,246,0.6)] hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 border-2 border-white">
+                    <!-- Tujuan Button -->
+                    <button onclick="goToSlide(2)" class="group px-5 sm:px-7 py-2.5 sm:py-3 rounded-full bg-white text-[#091e52] font-black text-xs sm:text-sm tracking-wide shadow-[0_10px_25px_rgba(0,0,0,0.3)] hover:shadow-[0_15px_35px_rgba(59,130,246,0.6)] hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 border-2 border-white">
                         <span class="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 group-hover:bg-[#091e52] group-hover:text-white transition-colors">
-                            <i class="fa-solid fa-users text-xs"></i>
-                        </span>
-                        <span>DAFTAR PENGURUS</span>
-                    </button>
-
-                    <!-- Visi Misi Button -->
-                    <button onclick="goToSlide(1)" class="group px-5 sm:px-6 py-2.5 sm:py-3 rounded-full bg-gradient-to-r from-blue-600/70 to-indigo-600/70 hover:from-blue-600 hover:to-indigo-600 text-white font-black text-xs sm:text-sm tracking-wide shadow-[0_10px_25px_rgba(0,0,0,0.3)] hover:shadow-[0_15px_35px_rgba(96,165,250,0.6)] hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 border border-blue-300/50 backdrop-blur-md">
-                        <span class="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-cyan-200 group-hover:bg-white group-hover:text-blue-700 transition-colors">
                             <i class="fa-solid fa-bullseye text-xs"></i>
                         </span>
                         <span>TUJUAN ORGANISASI</span>
+                    </button>
+
+                    <!-- Struktur Button -->
+                    <button onclick="goToSlide(4)" class="group px-5 sm:px-6 py-2.5 sm:py-3 rounded-full bg-gradient-to-r from-blue-600/70 to-indigo-600/70 hover:from-blue-600 hover:to-indigo-600 text-white font-black text-xs sm:text-sm tracking-wide shadow-[0_10px_25px_rgba(0,0,0,0.3)] hover:shadow-[0_15px_35px_rgba(96,165,250,0.6)] hover:scale-105 active:scale-95 transition-all duration-300 flex items-center gap-2 border border-blue-300/50 backdrop-blur-md">
+                        <span class="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-cyan-200 group-hover:bg-white group-hover:text-blue-700 transition-colors">
+                            <i class="fa-solid fa-sitemap text-xs"></i>
+                        </span>
+                        <span>STRUKTUR PENGURUS</span>
                     </button>
                 </div>
 
@@ -835,7 +840,160 @@
         <!-- ==========================================
              SLIDE 2: VISI & MISI
              ========================================== -->
+                <!-- ==========================================
+             SLIDE 2: APA ITU HIMATANBU MALANG? (PROFIL & IDENTITAS)
+             ========================================== -->
         <section id="slide-1" class="ppt-slide slide-next bg-curtain-blue select-none">
+            <!-- THEATRICAL STAGE BACKGROUND: Spotlight Beams, Star Bursts & Stardust -->
+            <div style="position:absolute;inset:0;pointer-events:none;overflow:hidden;">
+                <!-- Curtain Shadows -->
+                <div style="position:absolute;left:-5%;top:0;bottom:0;width:25%;background:linear-gradient(90deg, rgba(6,22,68,0.55) 0%, rgba(15,48,135,0.2) 60%, transparent 100%);"></div>
+                <div style="position:absolute;right:-5%;top:0;bottom:0;width:25%;background:linear-gradient(270deg, rgba(6,22,68,0.55) 0%, rgba(15,48,135,0.2) 60%, transparent 100%);"></div>
+                
+                <!-- Dual Theatrical Spotlight Beams -->
+                <div style="position:absolute;top:0;left:12%;width:260px;height:100%;background:linear-gradient(135deg, rgba(255,255,255,0.14) 0%, rgba(96,165,250,0.06) 50%, transparent 80%);transform:rotate(-14deg);transform-origin:top left;filter:blur(14px);"></div>
+                <div style="position:absolute;top:0;right:12%;width:260px;height:100%;background:linear-gradient(225deg, rgba(255,255,255,0.14) 0%, rgba(96,165,250,0.06) 50%, transparent 80%);transform:rotate(14deg);transform-origin:top right;filter:blur(14px);"></div>
+
+                <!-- Floating Celestial Stardust Sparkles -->
+                <div class="hero-sparkle" style="top:16%;left:14%;animation-delay:0.3s;"></div>
+                <div class="hero-sparkle" style="top:54%;left:10%;animation-delay:1.8s;"></div>
+                <div class="hero-sparkle" style="top:20%;right:14%;animation-delay:1.1s;"></div>
+                <div class="hero-sparkle" style="top:62%;right:16%;animation-delay:2.5s;"></div>
+
+                <!-- Star Bursts in Blue -->
+                <svg style="position:absolute;left:2%;top:10%;opacity:0.6;" width="80" height="80" viewBox="0 0 100 100" fill="none">
+                    <path d="M50 0 L55 38 L93 15 L62 45 L100 50 L62 55 L93 85 L55 62 L50 100 L45 62 L7 85 L38 55 L0 50 L38 45 L7 15 L45 38 Z" fill="#60a5fa"/>
+                </svg>
+                <svg style="position:absolute;right:3%;top:45%;opacity:0.35;" width="55" height="55" viewBox="0 0 100 100" fill="none">
+                    <path d="M50 0 L55 38 L93 15 L62 45 L100 50 L62 55 L93 85 L55 62 L50 100 L45 62 L7 85 L38 55 L0 50 L38 45 L7 15 L45 38 Z" fill="#93c5fd"/>
+                </svg>
+                <div style="position:absolute;right:-35px;bottom:-35px;width:160px;height:160px;border-radius:9999px;border:18px solid rgba(59,130,246,0.35);"></div>
+                <div style="position:absolute;top:8%;left:50%;transform:translateX(-50%);width:70%;height:45%;border-radius:50%;background:radial-gradient(ellipse, rgba(147,197,253,0.3) 0%, transparent 70%);"></div>
+            </div>
+
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 my-0 lg:my-auto py-4 sm:py-6 w-full relative z-10">
+                <!-- Top Badge Pill -->
+                <div class="ppt-anim-1 flex flex-col sm:flex-row items-center justify-center gap-2.5 mb-3">
+                    <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white shadow-xl animate-float-gentle">
+                        <img loading="eager" fetchpriority="high" decoding="async" src="logo_himatanbu_4.jpg" alt="Logo HIMATANBU" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover" onerror="handleLogoError(this)">
+                        <div class="text-left">
+                            <div class="text-[9px] sm:text-[10px] font-black text-slate-900 uppercase tracking-wider leading-tight">HIMPUNAN MAHASISWA</div>
+                            <div class="text-[8px] sm:text-[9px] font-bold text-emerald-700 uppercase tracking-wider leading-tight">TANAH BUMBU MALANG</div>
+                        </div>
+                    </div>
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-900/60 border border-cyan-400/30 backdrop-blur-md text-cyan-300 font-extrabold text-[10px] tracking-wider uppercase shadow-lg">
+                        <i class="fa-solid fa-circle-question text-amber-400"></i>
+                        <span>Slide 02 • Pengenalan Organisasi</span>
+                    </div>
+                </div>
+
+                <!-- Main Title -->
+                <div class="ppt-anim-1 text-center mb-4 sm:mb-6">
+                    <span class="text-[11px] sm:text-xs font-black uppercase tracking-widest text-emerald-400">Mengenal Lebih Dekat</span>
+                    <h3 class="text-3xl sm:text-5xl font-heading font-black text-chrome-himatanbu tracking-wide animate-shine mt-1">
+                        APA ITU HIMATANBU MALANG?
+                    </h3>
+                    <p class="text-blue-100/90 text-xs sm:text-sm font-medium mt-1 max-w-2xl mx-auto drop-shadow">
+                        Wadah pemersatu, rumah kedua, dan ruang bertumbuh bagi seluruh mahasiswa Bumi Bersujud di Kota Malang.
+                    </p>
+                </div>
+
+                <!-- Main Content Grid -->
+                <div class="ppt-anim-2 grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-5 items-stretch">
+                    <!-- Left Hero Card: Definisi & Identitas (5 cols) -->
+                    <div class="lg:col-span-5 flex flex-col justify-between rounded-3xl p-5 sm:p-6 bg-white/95 dark:bg-slate-900/90 backdrop-blur-md shadow-[0_20px_50px_rgba(0,0,0,0.4)] border-2 border-white/80 dark:border-blue-400/30 hover:scale-[1.01] transition-all duration-300">
+                        <div>
+                            <div class="flex items-center gap-3 mb-3.5">
+                                <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-500 text-white flex items-center justify-center text-xl shadow-lg shadow-emerald-600/30 shrink-0">
+                                    <i class="fa-solid fa-landmark"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-heading font-black text-base sm:text-lg text-slate-900 dark:text-white leading-tight">HIMATANBU MALANG</h4>
+                                    <p class="text-[11px] font-bold text-emerald-600 dark:text-emerald-400">Organisasi Mahasiswa Kedaerahan (ORMADA)</p>
+                                </div>
+                            </div>
+
+                            <p class="text-xs sm:text-[13px] text-slate-700 dark:text-slate-300 leading-relaxed text-justify mb-3">
+                                <strong>HIMATANBU Malang</strong> merupakan singkatan resmi dari <strong>Himpunan Mahasiswa Tanah Bumbu Malang</strong>. Wadah organisasi kedaerahan yang menghimpun seluruh mahasiswa dan mahasiswi asal <strong>Kabupaten Tanah Bumbu, Kalimantan Selatan</strong> yang sedang menempuh pendidikan tinggi di Kota Malang Raya.
+                            </p>
+
+                            <!-- Motto Banner -->
+                            <div class="rounded-2xl p-3 bg-gradient-to-r from-emerald-50 to-teal-50 dark:from-slate-800/80 dark:to-slate-800/40 border border-emerald-500/20 mb-3">
+                                <div class="flex items-center gap-1.5 text-[11px] font-black text-[#091e52] dark:text-cyan-300 mb-0.5">
+                                    <i class="fa-solid fa-quote-left text-amber-500 text-xs"></i>
+                                    <span>Semboyan Kehormatan:</span>
+                                </div>
+                                <p class="text-xs font-heading font-black text-emerald-700 dark:text-emerald-400 italic">
+                                    "Bumi Bersujud di Kota Pendidikan Malang"
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Quick Badges Strip -->
+                        <div class="grid grid-cols-2 gap-2 pt-3 border-t border-slate-200/80 dark:border-slate-800 text-[11px]">
+                            <div class="flex items-center gap-1.5 text-slate-600 dark:text-slate-300 font-semibold">
+                                <i class="fa-solid fa-map-pin text-rose-500"></i>
+                                <span>Tanah Bumbu, Kalsel</span>
+                            </div>
+                            <div class="flex items-center gap-1.5 text-slate-600 dark:text-slate-300 font-semibold">
+                                <i class="fa-solid fa-building-columns text-blue-500"></i>
+                                <span>Malang Raya, Jatim</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: 3 Pilar Utama / Makna Keberadaan (7 cols) -->
+                    <div class="lg:col-span-7 flex flex-col gap-2.5 sm:gap-3">
+                        <!-- Pilar 1: Rumah Kedua & Solidaritas -->
+                        <div class="stagger-1 rounded-2xl p-3.5 sm:p-4 bg-white/95 dark:bg-slate-900/85 backdrop-blur-md shadow-[0_10px_25px_rgba(0,0,0,0.3)] border border-white/60 dark:border-blue-500/30 border-l-4 border-l-rose-500 hover:-translate-y-0.5 hover:shadow-cyan-500/20 transition-all duration-300">
+                            <div class="flex items-start gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-rose-500/10 text-rose-600 dark:text-rose-400 flex items-center justify-center text-lg shrink-0 mt-0.5 shadow-sm">
+                                    <i class="fa-solid fa-house-chimney-heart"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-heading font-extrabold text-slate-900 dark:text-white text-xs sm:text-sm">1. Rumah Kedua di Perantauan (Kekeluargaan)</h5>
+                                    <p class="text-xs sm:text-[12.5px] text-slate-600 dark:text-blue-100/90 leading-relaxed mt-1">
+                                        Menjadi tempat berteduh dan keluarga bagi perantau Tanah Bumbu. Tempat berbagi keluh kesah, merangkul mahasiswa baru, serta saling menjaga dan menguatkan di tanah perantauan.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pilar 2: Wadah Intelektual & Kepemimpinan -->
+                        <div class="stagger-2 rounded-2xl p-3.5 sm:p-4 bg-white/95 dark:bg-slate-900/85 backdrop-blur-md shadow-[0_10px_25px_rgba(0,0,0,0.3)] border border-white/60 dark:border-blue-500/30 border-l-4 border-l-blue-500 hover:-translate-y-0.5 hover:shadow-cyan-500/20 transition-all duration-300">
+                            <div class="flex items-start gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-600 dark:text-cyan-400 flex items-center justify-center text-lg shrink-0 mt-0.5 shadow-sm">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-heading font-extrabold text-slate-900 dark:text-white text-xs sm:text-sm">2. Ruang Tumbuh & Intelektual (Kaderisasi)</h5>
+                                    <p class="text-xs sm:text-[12.5px] text-slate-600 dark:text-blue-100/90 leading-relaxed mt-1">
+                                        Sarana pengembangan karakter, kepemimpinan organisasi, diskusi wawasan, dan penyaluran minat bakat agar mahasiswa Tanah Bumbu unggul secara akademis maupun non-akademis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pilar 3: Sinergi & Pengabdian Daerah -->
+                        <div class="stagger-3 rounded-2xl p-3.5 sm:p-4 bg-white/95 dark:bg-slate-900/85 backdrop-blur-md shadow-[0_10px_25px_rgba(0,0,0,0.3)] border border-white/60 dark:border-blue-500/30 border-l-4 border-l-amber-500 hover:-translate-y-0.5 hover:shadow-cyan-500/20 transition-all duration-300">
+                            <div class="flex items-start gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center text-lg shrink-0 mt-0.5 shadow-sm">
+                                    <i class="fa-solid fa-hand-holding-heart"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-heading font-extrabold text-slate-900 dark:text-white text-xs sm:text-sm">3. Jembatan Aspirasi & Pengabdian Daerah (Sosial)</h5>
+                                    <p class="text-xs sm:text-[12.5px] text-slate-600 dark:text-blue-100/90 leading-relaxed mt-1">
+                                        Menghubungkan mahasiswa dengan Pemkab Tanah Bumbu, mempermudah koordinasi bantuan & beasiswa, serta wadah dedikasi nyata bagi pembangunan daerah Bumi Bersujud.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="slide-2" class="ppt-slide slide-next bg-curtain-blue select-none">
             <!-- THEATRICAL STAGE BACKGROUND: Spotlight Beams, Star Bursts & Stardust -->
             <div style="position:absolute;inset:0;pointer-events:none;overflow:hidden;">
                 <!-- Curtain Shadows -->
@@ -866,14 +1024,18 @@
             </div>
 
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 my-0 lg:my-auto py-4 sm:py-6 w-full relative z-10">
-                <!-- Top Logo Badge (White Pill) -->
-                <div class="ppt-anim-1 flex justify-center mb-3">
+                <!-- Top Logo Badge & Indicator -->
+                <div class="ppt-anim-1 flex flex-col sm:flex-row items-center justify-center gap-2.5 mb-3">
                     <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white shadow-xl animate-float-gentle">
                         <img loading="eager" fetchpriority="high" decoding="async" src="logo_himatanbu_4.jpg" alt="Logo HIMATANBU" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover" onerror="handleLogoError(this)">
                         <div class="text-left">
                             <div class="text-[9px] sm:text-[10px] font-black text-slate-900 uppercase tracking-wider leading-tight">HIMPUNAN MAHASISWA</div>
                             <div class="text-[8px] sm:text-[9px] font-bold text-emerald-700 uppercase tracking-wider leading-tight">TANAH BUMBU MALANG</div>
                         </div>
+                    </div>
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-900/60 border border-cyan-400/30 backdrop-blur-md text-cyan-300 font-extrabold text-[10px] tracking-wider uppercase shadow-lg">
+                        <i class="fa-solid fa-bullseye text-cyan-400"></i>
+                        <span>Slide 03 • Tujuan Organisasi</span>
                     </div>
                 </div>
 
@@ -919,7 +1081,7 @@
         <!-- ==========================================
              SLIDE 3: SEJARAH HIMA TANBU MALANG
              ========================================== -->
-        <section id="slide-2" class="ppt-slide slide-next bg-curtain-blue select-none">
+        <section id="slide-3" class="ppt-slide slide-next bg-curtain-blue select-none">
             <!-- THEATRICAL STAGE BACKGROUND: Spotlight Beams, Star Bursts & Stardust (Selaras Beranda) -->
             <div style="position:absolute;inset:0;pointer-events:none;overflow:hidden;">
                 <!-- Left & Right Curtain Drapes Shadows -->
@@ -957,7 +1119,7 @@
                 <div class="ppt-anim-1 text-center max-w-3xl mx-auto mb-4 sm:mb-5">
                     <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white text-[#091e52] font-black text-xs tracking-wider uppercase shadow-[0_10px_25px_rgba(0,0,0,0.35)] border border-blue-200/60 mb-2">
                         <i class="fa-solid fa-clock-rotate-left text-amber-500"></i>
-                        <span>Slide 03 • Sejarah Terbentuknya</span>
+                        <span>Slide 04 • Sejarah Terbentuknya</span>
                     </div>
                     <h3 class="text-3xl sm:text-5xl font-heading font-black text-chrome-himatanbu tracking-wide animate-shine mt-1">
                         SEJARAH HIMATANBU MALANG
@@ -1073,7 +1235,7 @@
         <!-- ==========================================
              SLIDE 4: BAGAN STRUKTUR POHON
              ========================================== -->
-        <section id="slide-3" class="ppt-slide slide-next bg-curtain-blue select-none">
+        <section id="slide-4" class="ppt-slide slide-next bg-curtain-blue select-none">
             <!-- THEATRICAL STAGE BACKGROUND: Spotlight Beams, Star Bursts & Stardust -->
             <div style="position:absolute;inset:0;pointer-events:none;overflow:hidden;">
                 <!-- Curtain Shadows -->
@@ -1106,7 +1268,7 @@
                 <div class="ppt-anim-1 text-center max-w-3xl mx-auto mb-4 sm:mb-5">
                     <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white text-[#091e52] font-black text-xs tracking-wider uppercase shadow-[0_10px_25px_rgba(0,0,0,0.35)] border border-blue-200/60 mb-2 animate-float-gentle">
                         <i class="fa-solid fa-sitemap text-amber-500"></i>
-                        <span>Slide 04 • Hierarki Kepengurusan</span>
+                        <span>Slide 05 • Hierarki Kepengurusan</span>
                     </div>
                     <h3 class="text-3xl sm:text-4xl font-heading font-black text-chrome-himatanbu tracking-wide animate-shine mt-1">
                         BAGAN STRUKTUR ORGANISASI
@@ -1222,7 +1384,7 @@
         <!-- ==========================================
              SLIDE 5: BIDANG PKA
              ========================================== -->
-        <section id="slide-4" class="ppt-slide slide-next bg-curtain-blue select-none">
+        <section id="slide-5" class="ppt-slide slide-next bg-curtain-blue select-none">
             <!-- THEATRICAL STAGE BACKGROUND: Spotlight Beams, Star Bursts & Stardust -->
             <div style="position:absolute;inset:0;pointer-events:none;overflow:hidden;">
                 <!-- Curtain Shadows -->
@@ -1256,7 +1418,7 @@
                 <div class="ppt-anim-1 text-center max-w-3xl mx-auto mb-4 sm:mb-6">
                     <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white text-[#091e52] font-black text-xs tracking-wider uppercase shadow-[0_10px_25px_rgba(0,0,0,0.35)] border border-blue-200/60 mb-2 animate-float-gentle">
                         <i class="fa-solid fa-graduation-cap text-emerald-500"></i>
-                        <span>Slide 05 • Bidang 01</span>
+                        <span>Slide 06 • Bidang 01</span>
                     </div>
                     <h3 class="text-3xl sm:text-5xl font-heading font-black text-chrome-himatanbu tracking-wide animate-shine mt-1">
                         BIDANG PKA
@@ -1354,7 +1516,7 @@
         <!-- ==========================================
              SLIDE 6: BIDANG SKMB
              ========================================== -->
-        <section id="slide-5" class="ppt-slide slide-next bg-curtain-blue select-none">
+        <section id="slide-6" class="ppt-slide slide-next bg-curtain-blue select-none">
             <!-- THEATRICAL STAGE BACKGROUND: Spotlight Beams, Star Bursts & Stardust -->
             <div style="position:absolute;inset:0;pointer-events:none;overflow:hidden;">
                 <!-- Curtain Shadows -->
@@ -1388,7 +1550,7 @@
                 <div class="ppt-anim-1 text-center max-w-3xl mx-auto mb-4 sm:mb-6">
                     <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white text-[#091e52] font-black text-xs tracking-wider uppercase shadow-[0_10px_25px_rgba(0,0,0,0.35)] border border-blue-200/60 mb-2 animate-float-gentle">
                         <i class="fa-solid fa-palette text-amber-500"></i>
-                        <span>Slide 06 • Bidang 02</span>
+                        <span>Slide 07 • Bidang 02</span>
                     </div>
                     <h3 class="text-3xl sm:text-5xl font-heading font-black text-chrome-himatanbu tracking-wide animate-shine mt-1">
                         BIDANG SKMB
@@ -1480,7 +1642,7 @@
         <!-- ==========================================
              SLIDE 7: BIDANG INFOKOM
              ========================================== -->
-        <section id="slide-6" class="ppt-slide slide-next bg-curtain-blue select-none">
+        <section id="slide-7" class="ppt-slide slide-next bg-curtain-blue select-none">
             <!-- THEATRICAL STAGE BACKGROUND: Spotlight Beams, Star Bursts & Stardust -->
             <div style="position:absolute;inset:0;pointer-events:none;overflow:hidden;">
                 <!-- Curtain Shadows -->
@@ -1514,7 +1676,7 @@
                 <div class="ppt-anim-1 text-center max-w-3xl mx-auto mb-4 sm:mb-6">
                     <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white text-[#091e52] font-black text-xs tracking-wider uppercase shadow-[0_10px_25px_rgba(0,0,0,0.35)] border border-blue-200/60 mb-2 animate-float-gentle">
                         <i class="fa-solid fa-bullhorn text-cyan-500"></i>
-                        <span>Slide 07 • Bidang 03</span>
+                        <span>Slide 08 • Bidang 03</span>
                     </div>
                     <h3 class="text-3xl sm:text-5xl font-heading font-black text-chrome-himatanbu tracking-wide animate-shine mt-1">
                         BIDANG INFOKOM
@@ -1612,7 +1774,7 @@
         <!-- ==========================================
              SLIDE 8: DAFTAR PENGURUS
              ========================================== -->
-        <section id="slide-7" class="ppt-slide slide-next bg-curtain-blue select-none">
+        <section id="slide-8" class="ppt-slide slide-next bg-curtain-blue select-none">
             <!-- THEATRICAL STAGE BACKGROUND: Spotlight Beams, Star Bursts & Stardust -->
             <div style="position:absolute;inset:0;pointer-events:none;overflow:hidden;">
                 <!-- Curtain Shadows -->
@@ -1646,7 +1808,7 @@
                     <div>
                         <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white text-[#091e52] font-black text-xs tracking-wider uppercase shadow-md border border-blue-200/60 mb-1 animate-float-gentle">
                             <i class="fa-solid fa-users text-amber-500"></i>
-                            <span>Slide 08 • Direktori Anggota</span>
+                            <span>Slide 09 • Direktori Anggota</span>
                         </div>
                         <h3 class="text-2xl sm:text-4xl font-heading font-black text-chrome-himatanbu mt-1 animate-shine">Daftar Anggota Muda (2026)</h3>
                         <p class="text-xs text-blue-100/90 font-medium mt-0.5">22 Mahasiswa perantau Tanah Bumbu di Malang sesuai data resmi.</p>
@@ -1681,7 +1843,7 @@
         <!-- ==========================================
              SLIDE 6: PROGRAM KERJA & ASRAMA
              ========================================== -->
-        <section id="slide-8" class="ppt-slide slide-next bg-curtain-blue select-none">
+        <section id="slide-9" class="ppt-slide slide-next bg-curtain-blue select-none">
             <!-- THEATRICAL STAGE BACKGROUND: Spotlight Beams, Star Bursts & Stardust -->
             <div style="position:absolute;inset:0;pointer-events:none;overflow:hidden;">
                 <!-- Curtain Shadows -->
@@ -1714,7 +1876,7 @@
                 <div class="ppt-anim-1 text-center max-w-3xl mx-auto mb-4 sm:mb-5">
                     <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white text-[#091e52] font-black text-xs tracking-wider uppercase shadow-[0_10px_25px_rgba(0,0,0,0.35)] border border-blue-200/60 mb-2 animate-float-gentle">
                         <i class="fa-solid fa-calendar-check text-amber-500"></i>
-                        <span>Slide 09 • Agenda & Dedikasi</span>
+                        <span>Slide 10 • Agenda & Dedikasi</span>
                     </div>
                     <h3 class="text-3xl sm:text-4xl font-heading font-black text-chrome-himatanbu mt-1 animate-shine">Program Kerja & Sekretariat</h3>
                     <p class="text-blue-100/90 text-xs sm:text-sm font-medium mt-1 drop-shadow">Agenda unggulan untuk mahasiswa perantauan dan masyarakat Tanah Bumbu.</p>
@@ -2224,6 +2386,7 @@
         // ==============================================================
         const slideNames = [
             "Beranda & Ringkasan",
+            "Apa Itu HIMATANBU?",
             "Tujuan Organisasi",
             "Sejarah HIMATANBU",
             "Bagan Struktur Pohon",
@@ -2233,7 +2396,7 @@
             "Daftar Anggota Muda (2026)",
             "Program Kerja & Asrama"
         ];
-        const totalSlides = 9;
+        const totalSlides = 10;
         let currentSlide = 0;
         const slides = [
             document.getElementById('slide-0'),
@@ -2244,7 +2407,8 @@
             document.getElementById('slide-5'),
             document.getElementById('slide-6'),
             document.getElementById('slide-7'),
-            document.getElementById('slide-8')
+            document.getElementById('slide-8'),
+            document.getElementById('slide-9')
         ];
 
         const progressBar = document.getElementById('pptProgressBar');
@@ -2344,7 +2508,7 @@
         if (prevSlideBtn) prevSlideBtn.addEventListener('click', prevSlide);
 
         function jumpToDept(deptCode) {
-            goToSlide(7);
+            goToSlide(8);
             const targetBtn = document.querySelector(`.filter-btn[data-filter="${deptCode}"]`);
             if (targetBtn) targetBtn.click();
         }
